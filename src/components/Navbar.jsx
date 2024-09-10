@@ -9,7 +9,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#548f6f] text-gray-900'>
+    <div className='fixed w-full h-[100px] flex justify-between items-center z-10 px-4 bg-[#548f6f] text-gray-900'>
         <div>
             <img src={Logo} alt="Logo image" style={{width: '240px'}}/>
         </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#548f6f] text-white flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="home"  smooth={true}  duration={500}>
                     Home

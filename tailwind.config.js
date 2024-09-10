@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundimage: {
-        'navbar-bg' : "url('/assets/navbar_bg.png')",
       }
     },
   },
