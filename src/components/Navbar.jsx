@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
+import {FaBars, FaTimes, FaMapMarkerAlt, FaFacebook} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/cafe_muchies_logo.webp'
@@ -9,7 +9,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-navbar-bg bg-cover text-gray-300'>
+    <div className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#548f6f] text-gray-900'>
         <div>
             <img src={Logo} alt="Logo image" style={{width: '240px'}}/>
         </div>
@@ -24,17 +24,17 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="about"  smooth={true}  duration={500}>
-                    About
+                    About Us
                     </Link>
                 </li>
                 <li>
                     <Link to="skills"  smooth={true}  duration={500}>
-                    Skills
+                    Weed
                     </Link>
                 </li>
                 <li>
                     <Link to="work"  smooth={true}  duration={500}>
-                    Work
+                    Shop
                     </Link>
                 </li>
                 <li>
@@ -84,26 +84,20 @@ const Navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="https://www.linkedin.com/in/diego-callegari-a60496238/" target='blank'>
-                            Linkedin <FaLinkedin size={30} />
-                        </a>
-                    </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                        <a className='flex justify-between items-center w-full text-gray-300'
-                        href="https://github.com/diegocallegari96" target='blank'>
-                            Github <FaGithub size={30} />
+                        href="https://www.facebook.com/Cafemunchiesbkk/" target='blank'>
+                            Facebook <FaFacebook size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c71610]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="mailto:diegoocallegari@gmail.com?subject=Inquiry from Portfolio&body=Hello,">
-                            Email <HiOutlineMail size={30} />
+                        href="https://maps.app.goo.gl/dzrG7HS6xtW5mT8N8" target='blank'>
+                            Location <FaMapMarkerAlt size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f2a60c]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#548f6f]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="https://drive.usercontent.google.com/u/0/uc?id=1bY34nU6T1oTGMAx7Xs-BRkrJz_4rv9nz&export=download">
-                            Resume <BsFillPersonLinesFill size={30} />
+                        href="mailto:Cafemunchiesbkk@gmail.com">
+                            Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     
