@@ -16,13 +16,21 @@ const Home = () => {
             <p className='text-[#575e73] py-4 max-w-[700px]'>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, quia vero eius assumenda nulla sequi beatae, odit voluptate quam officiis sapiente, atque numquam iure maiores ut ullam repellendus minima dolore?
             </p>
-            <Link to="work"  smooth={true}  duration={500}>
+            {/* Nog langselkaar zetten */}
+            <Link to="weed"  smooth={true}  duration={500}>
+              <button className='text-grey-900 group border-2 px-6 py-3 my-2 flex items-center border-[#548f6f] hover:bg-[#548f6f] hover:border-[#3f7558] mx-auto md:mx-0'>View Weed
+                <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3'/>
+                </span>
+              </button>
+            </Link> 
+            <Link to="shop"  smooth={true}  duration={500}>
               <button className='text-grey-900 group border-2 px-6 py-3 my-2 flex items-center border-[#548f6f] hover:bg-[#548f6f] hover:border-[#3f7558] mx-auto md:mx-0'>View Shop
                 <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3'/>
                 </span>
               </button>
-            </Link>    
+            </Link>       
         </div>
         <div className='hidden md:block ml-20 w-[60%] h-[100%] mt-20'>
   <div className=''>

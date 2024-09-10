@@ -3,7 +3,7 @@ import HTML from '../assets/kush.jpg'
 
 const Weed = () => {
   return (
-    <div name='skills' className=' w-full h-full pt-[100px] bg-[#e5e2c4] text-black'>
+    <div name='weed' className=' w-full h-full pt-[100px] bg-[#e5e2c4] text-black'>
         {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center text-center w-full h-full '>
             <div>

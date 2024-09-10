@@ -5,7 +5,7 @@ import Outside from '../assets/outside_picture.jpg'
 
 const MyWork = () => {
   return (
-    <div name='work' className='w-full h-full text-[#575e73] text-center bg-[#e5e2c4]'>
+    <div name='shop' className='w-full h-full text-[#575e73] text-center bg-[#e5e2c4]'>
         <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-black border-[#548f6f]'>Our Place</p>
@@ -16,15 +16,15 @@ const MyWork = () => {
                 {/* grid item */}
                 <div 
                 style={{backgroundImage: `url(${Inside})`}} 
-                className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 </div>
                 <div 
                 style={{backgroundImage: `url(${Inside2})`}} 
-                className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 </div>
                 <div 
                 style={{backgroundImage: `url(${Outside})`}} 
-                className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 </div>
             </div>
         </div>
