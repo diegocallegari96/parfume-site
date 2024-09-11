@@ -83,19 +83,19 @@ const Navbar = () => {
             <div className='lg:flex fixed flex-col top-[35%] left-0 hide-at-1268'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300'
+                        <a className='flex justify-between items-center w-full text-[#e5e2c4]'
                         href="https://www.facebook.com/Cafemunchiesbkk/" target='blank'>
                             Facebook <FaFacebook size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c71610]'>
-                        <a className='flex justify-between items-center w-full text-gray-300'
+                        <a className='flex justify-between items-center w-full text-[#e5e2c4]'
                         href="https://maps.app.goo.gl/dzrG7HS6xtW5mT8N8" target='blank'>
                             Location <FaMapMarkerAlt size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#548f6f]'>
-                        <a className='flex justify-between items-center w-full text-gray-300'
+                        <a className='flex justify-between items-center w-full text-[#e5e2c4]'
                         href="mailto:Cafemunchiesbkk@gmail.com">
                             Email <HiOutlineMail size={30} />
                         </a>
