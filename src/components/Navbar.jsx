@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes, FaMapMarkerAlt, FaFacebook} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/cafe_muchies_logo.webp'
 import { Link } from 'react-scroll'
-import bg from '../assets/cannabis_navbar.png'
+import bg from '../assets/cannabis_navbar1.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
