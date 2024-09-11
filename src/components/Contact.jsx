@@ -18,7 +18,7 @@ const Contact = () => {
     
     {/* Container for contact details and iframe */}
     <div className='w-full flex flex-col items-center gap-8 px-4'>
-      <div className='text-2xl sm:text-xl md:text-lg lg:text-xl font-bold w-full max-w-[500px]'>
+      <div className='sm:text-xl md:text-lg lg:text-xl font-bold w-full max-w-[500px]'>
         <p className='mb-4 underline text-black'>
           <a className='flex items-center justify-center border-[#548f6f]' href="https://www.facebook.com/Cafemunchiesbkk/" target='_blank' rel="noreferrer">
             <FaFacebook size={30} className="mr-4 text-[#1877F2]" /> Facebook
