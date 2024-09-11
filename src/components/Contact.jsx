@@ -2,9 +2,12 @@ import React from 'react'
 import {FaFacebook} from 'react-icons/fa'
 import { TfiEmail } from "react-icons/tfi";
 import { FaPhone } from "react-icons/fa6";
+import '../i18next'
+import { useTranslation } from 'react-i18next'
 
 
 const Contact = () => {
+  const {t} = useTranslation()
 
   
 

@@ -1,6 +1,10 @@
 import React from 'react'
+import '../i18next'
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
+    const {t} = useTranslation()
+
   return (
     <div name='about' className='w-full h-screen bg-[#e5e2c4] text-black'>
         <div className='flex flex-col justify-center items-center w-full h-full'>

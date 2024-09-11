@@ -1,7 +1,10 @@
 import React from 'react'
 import HTML from '../assets/kush.jpg'
+import '../i18next'
+import { useTranslation } from 'react-i18next'
 
 const Weed = () => {
+    const {t} = useTranslation()
   return (
     <div name='weed' className=' w-full h-full pt-[100px] bg-[#e5e2c4] text-black'>
         {/* container */}

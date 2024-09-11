@@ -2,8 +2,11 @@ import React from 'react'
 import Inside from '../assets/inside_picture.jpg'
 import Inside2 from '../assets/inside_picture2.jpg'
 import Outside from '../assets/outside_picture.jpg'
+import '../i18next'
+import { useTranslation } from 'react-i18next'
 
 const MyWork = () => {
+  const {t} = useTranslation()
   return (
     <div name='shop' className='w-full h-full text-[#575e73] text-center bg-[#e5e2c4]'>
         <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>

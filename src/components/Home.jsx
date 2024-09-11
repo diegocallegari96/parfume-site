@@ -2,8 +2,14 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from 'react-scroll'
 import Image from '../assets/main_image.jpg'
+import '../i18next'
+import { useTranslation } from 'react-i18next'
 
 const Home = () => {
+  const { t, i18n } = useTranslation()
+
+  
+
   return (
     <div name='home' className='w-full h-screen bg-[#e5e2c4]'>
 
@@ -12,7 +18,7 @@ const Home = () => {
       <div className='flex flex-col md:flex-row items-center'>
         <div className='flex flex-col'>
           <h1 className='text-4xl sm:text-6xl font-bold text-[#548f6f]'>Cafe Munchies</h1>
-          <h2 className='text-4xl sm:text-6xl font-bold text-grey-600'>Chill, Eat, Repeat</h2>
+          <h2 className='text-4xl sm:text-6xl font-bold text-grey-600'>{t("chill")}</h2>
           <p className='text-[#575e73] py-4 max-w-[700px]'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, quia vero eius assumenda nulla sequi beatae, odit voluptate quam officiis sapiente, atque numquam iure maiores ut ullam repellendus minima dolore?
           </p>

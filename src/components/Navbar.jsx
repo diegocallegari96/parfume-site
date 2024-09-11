@@ -5,8 +5,13 @@ import Logo from '../assets/cafe_muchies_logo.webp'
 import { Link } from 'react-scroll'
 import bg from '../assets/cannabis_navbar1.png'
 import Image from '../assets/cafe_muchies_logo.webp'
+import '../i18next'
+import { useTranslation } from 'react-i18next'
+import LanguageSelector from '../components/language_selector'
 
 const Navbar = () => {
+    const {t} = useTranslation()
+
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
@@ -20,7 +25,7 @@ const Navbar = () => {
             <ul className='hidden md:flex font-bold text-white'>
                 <li>
                     <Link to="home"  smooth={true}  duration={500}>
-                    Home
+                    {t('home')}
                     </Link>
                 </li>
                 <li>
@@ -40,8 +45,11 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="contact"  smooth={true}  duration={500}>
-                    Contact
+                    {t('contact')}
                     </Link>
+                </li>
+                <li>
+                    <LanguageSelector/>
                 </li>
             </ul>
 
@@ -55,7 +63,7 @@ const Navbar = () => {
                 <img src={Image} alt='logo'/>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="home"  smooth={true}  duration={500}>
-                    Home
+                    {t('home')}
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'>
@@ -75,8 +83,11 @@ const Navbar = () => {
                 </li>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="contact"  smooth={true}  duration={500}>
-                    Contact
+                    {t('contact')}
                     </Link>
+                </li>
+                <li className='pt-16'>
+                    <LanguageSelector/>
                 </li>
             </ul>
 
