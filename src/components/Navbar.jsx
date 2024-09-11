@@ -4,12 +4,13 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/cafe_muchies_logo.webp'
 import { Link } from 'react-scroll'
+import bg from '../assets/cannabis_navbar.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[100px] flex justify-between items-center z-10 px-4 bg-[#548f6f] text-gray-900'>
+    <div style={{backgroundImage: `url(${bg})`}}  className='fixed w-full h-[160px] flex justify-between items-center z-10 pt-6 px-4 pb-24 text-gray-900'>
         <div>
             <img src={Logo} alt="Logo image" style={{width: '240px'}}/>
         </div>
@@ -80,7 +81,7 @@ const Navbar = () => {
 
 
             {/* Social icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='lg:flex fixed flex-col top-[35%] left-0 hide-at-1268'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a className='flex justify-between items-center w-full text-gray-300'
@@ -103,6 +104,13 @@ const Navbar = () => {
                     
                 </ul>
             </div>
+            <style jsx>{`
+                @media (max-width: 1268px) {
+                    .hide-at-1268 {
+                        display: none;
+                    }
+                }
+            `}</style>
     </div>
   )
 }
