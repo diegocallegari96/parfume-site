@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import Logo from '../assets/cafe_muchies_logo.webp'
 import { Link } from 'react-scroll'
 import bg from '../assets/cannabis_navbar1.png'
+import Image from '../assets/cafe_muchies_logo.webp'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -50,7 +51,8 @@ const Navbar = () => {
             </div>
 
             {/* Mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#548f6f] text-white flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#548f6f] text-[#e5e2c4] flex flex-col items-center'}>
+                <img src={Image} alt='logo'/>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="home"  smooth={true}  duration={500}>
                     Home
