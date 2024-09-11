@@ -41,7 +41,7 @@ const Home = () => {
   
         <div className='hidden md:block ml-20 w-[60%] h-[100%] mt-20'>
           <div className=''>
-            <img className='h-160 w-full rounded-lg hover:scale-110 duration-500 shadow-md shadow-[#040c16]' src={Image} />
+            <img className='h-160 w-full rounded-lg hover:scale-110 duration-500 shadow-md shadow-[#040c16]' alt="" src={Image} />
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div style={{backgroundImage: `url(${bg})`}}  className='fixed w-full h-[160px] flex justify-between items-center z-10 pt-6 px-4 pb-24 text-gray-900'>
         <div>
-            <img src={Logo} alt="Logo image" style={{width: '240px'}}/>
+            <img src={Logo} alt="Logo" style={{width: '240px'}}/>
         </div>
 
         {/* menu */}

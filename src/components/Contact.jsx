@@ -20,7 +20,7 @@ const Contact = () => {
     <div className='w-full flex flex-col items-center gap-8 px-4'>
       <div className='text-2xl sm:text-xl md:text-lg lg:text-xl font-bold w-full max-w-[500px]'>
         <p className='mb-4 underline text-black'>
-          <a className='flex items-center justify-center border-[#548f6f]' href="https://www.facebook.com/Cafemunchiesbkk/" target='_blank'>
+          <a className='flex items-center justify-center border-[#548f6f]' href="https://www.facebook.com/Cafemunchiesbkk/" target='_blank' rel="noreferrer">
             <FaFacebook size={30} className="mr-4 text-[#1877F2]" /> Facebook
           </a>
         </p>
@@ -30,15 +30,16 @@ const Contact = () => {
           </a>
         </p>
         <p className='mb-4  text-black'>
-          <a className='flex items-center justify-center text-black'>
+          <p className='flex items-center justify-center text-black'>
             <FaPhone size={30} className="mr-4 text-[#0a0a0a]" /> 065 462 6165
-          </a>
+          </p>
         </p>
       </div>
       
       {/* Iframe container */}
       <div className='w-full max-w-[1000px]'>
         <iframe
+          title='maps location'
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.1222911635664!2d100.60080987528006!3d13.711042398235467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fc37905e9b7%3A0xed076e1cc11d44da!2sCafe%20Munchies!5e0!3m2!1snl!2sth!4v1726032830339!5m2!1snl!2sth" 
           width="100%" 
           height="500" 
