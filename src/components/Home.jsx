@@ -19,7 +19,7 @@ const Home = () => {
         <div className='flex flex-col md:flex-row justify-center items-center'>
           <div className='flex flex-col text-center md:text-left'>
             <h1
-              className={`mb-2 pt-12 font-bold text-[#548f6f] ${isThai ? 'text-5xl sm:text-7xl pb-2' : 'text-4xl sm:text-6xl'}`}>
+              className={`mb-2 pt-28 font-bold text-[#548f6f] ${isThai ? 'text-5xl sm:text-7xl pb-2' : 'text-4xl sm:text-6xl'}`}>
               {t("name")}
             </h1>
             <h2
