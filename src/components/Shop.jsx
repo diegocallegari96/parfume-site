@@ -1,7 +1,7 @@
 import React from 'react'
-import Inside from '../assets/inside_picture.jpg'
-import Inside2 from '../assets/inside_picture2.jpg'
-import Outside from '../assets/outside_picture.jpg'
+import Inside from '../assets/placeholder1.avif'
+import Inside2 from '../assets/placeholder2.jpg'
+import Outside from '../assets/placeholder3.jpg'
 import '../i18next'
 import { useTranslation } from 'react-i18next'
 
