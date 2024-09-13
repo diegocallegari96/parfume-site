@@ -1,9 +1,9 @@
 import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
-import { Link } from 'react-scroll'
 import Image from '../assets/mainplace1.jpeg'
 import '../i18next'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-scroll'
+import { HiArrowNarrowRight } from 'react-icons/hi'
 
 const Home = () => {
   const { t, i18n } = useTranslation()
@@ -26,19 +26,15 @@ const Home = () => {
               className={`font-bold text-grey-600 ${isThai ? 'text-5xl sm:text-6xl' : 'text-4xl sm:text-5xl'}`}>
               {t("chill")}
             </h2>
-            <h2
-              className={`text-[#575e73] py-4 max-w-[700px] font-bold ${isThai ? 'text-2xl' : 'text-xl'}`}>
-              {t("header1")}
-            </h2>
             <p
               className={`text-[#575e73] py-4 max-w-[700px] font-bold ${isThai ? 'text-2xl' : 'text-xl'}`}>
               {t("intro1")}
             </p>
 
             {/* Flex container for buttons */}
-            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center md:justify-start">
+            <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 justify-center md:justify-start">
               <Link to="weed" smooth={true} duration={500}>
-                <button className='text-grey-900 group border-2 px-6 py-3 my-2 flex items-center border-[#548f6f] hover:bg-[#548f6f] hover:border-[#3f7558]'>
+                <button className='text-grey-900 group border-2 px-6 py-3 flex items-center border-[#548f6f] hover:bg-[#548f6f] hover:border-[#3f7558]'>
                   {t("btnw")}
                   <span className='group-hover:rotate-90 duration-300'>
                     <HiArrowNarrowRight className='ml-3' />
@@ -47,7 +43,7 @@ const Home = () => {
               </Link>
 
               <Link to="shop" smooth={true} duration={500}>
-                <button className='text-grey-900 group border-2 px-6 py-3 my-2 flex items-center border-[#548f6f] hover:bg-[#548f6f] hover:border-[#3f7558]'>
+                <button className='text-grey-900 group border-2 px-6 py-3 flex items-center border-[#548f6f] hover:bg-[#548f6f] hover:border-[#3f7558]'>
                   {t("btns")}
                   <span className='group-hover:rotate-90 duration-300'>
                     <HiArrowNarrowRight className='ml-3' />

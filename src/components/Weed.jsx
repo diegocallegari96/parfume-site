@@ -64,7 +64,7 @@ const Weed = () => {
                     <p className='my-4 text-xl font-bold text-center'>OG Kush</p>
                     <p className='text-sm' ><b>THC</b> 27% <b>CBD</b> 0%</p>
                     <p className='text-sm'><b>Sativa</b> 30% <b>Indica</b> 70%</p>
-                    <p className='text-sm'>euphoric - happy</p>
+                    <p className='text-sm sm:text-xs'>euphoric - happy</p>
                     <p className='text-sm mt-2 pl-16'>From <b>฿799.00</b></p>
                     </div>
                     <div className='flex justify-center text-5xl'>
@@ -85,7 +85,7 @@ const Weed = () => {
                     <p className='my-4 text-xl font-bold text-center'>Cherry Runtz</p>
                     <p className='text-sm' ><b>THC</b> 32% <b>CBD</b> 1%</p>
                     <p className='text-sm'><b>Sativa</b> 60% <b>Indica</b> 40%</p>
-                    <p className='text-sm'>euphoric - happy - relaxed</p>
+                    <p className='text-sm sm:text-xs'>euphoric - happy - relaxed</p>
                     <p className='text-sm mt-2 pl-16'>From <b>฿200.00</b></p>
                     </div>
                     <div className='flex justify-center text-5xl'>
@@ -106,7 +106,7 @@ const Weed = () => {
                     <p className='my-4 text-xl font-bold text-center'>Cherry Runtz</p>
                     <p className='text-sm' ><b>THC</b> 32% <b>CBD</b> 1%</p>
                     <p className='text-sm'><b>Sativa</b> 60% <b>Indica</b> 40%</p>
-                    <p className='text-sm'>relaxed - uplifted</p>
+                    <p className='text-sm sm:text-xs'>relaxed - uplifted</p>
                     <p className='text-sm mt-2 pl-16'>From <b>฿200.00</b></p>
                     </div>
                     <div className='flex justify-center text-5xl'>
@@ -127,7 +127,7 @@ const Weed = () => {
                     <p className='my-4 text-xl font-bold text-center'>Oreoz</p>
                     <p className='text-sm' ><b>THC</b> 30% <b>CBD</b> 0%</p>
                     <p className='text-sm'><b>Sativa</b> 30% <b>Indica</b> 70%</p>
-                    <p className='text-sm'>relaxed - Happy - Creative</p>
+                    <p className='text-sm sm:text-xs'>relaxed - Happy - Creative</p>
                     <p className='text-sm mt-2 pl-16'>From <b>฿400.00</b></p>
                     </div>
                     <div className='flex justify-center text-5xl'>
