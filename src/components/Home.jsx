@@ -32,7 +32,7 @@ const Home = () => {
             </p>
 
             {/* Flex container for buttons */}
-            <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 justify-center md:justify-start">
+            <div className="flex flex-col md:flex-row items-center my-8 md:my-0 space-y-4 md:space-y-0 md:space-x-4 justify-center md:justify-start">
               <Link to="weed" smooth={true} duration={500}>
                 <button className='text-grey-900 group border-2 px-6 py-3 flex items-center border-[#548f6f] hover:bg-[#548f6f] hover:border-[#3f7558]'>
                   {t("btnw")}

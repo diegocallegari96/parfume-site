@@ -21,11 +21,11 @@ const About = () => {
         <p>{t("intro2")}</p>
       </div>
       <div>
-        <p className='text-center pb-8 font-bold text-xl'>{t("why")}</p>
+        <p className='text-center pb-4 font-bold text-2xl'>{t("why")}</p>
         <ul className='list-inside text-left space-y-2'>
-          <li><span className="font-bold">{t("bulletb1")}</span> {t("bullet1")}</li>
-          <li><span className="font-bold">{t("bulletb2")}</span> {t("bullet2")}</li>
-          <li><span className="font-bold">{t("bulletb3")}</span> {t("bullet3")}</li>
+          <li className='text-lg'><span className="font-bold">{t("bulletb1")}</span> {t("bullet1")}</li>
+          <li className='text-lg'><span className="font-bold">{t("bulletb2")}</span> {t("bullet2")}</li>
+          <li className='text-lg'><span className="font-bold">{t("bulletb3")}</span> {t("bullet3")}</li>
         </ul>
       </div>              
     </div>    

@@ -21,7 +21,7 @@ const Navbar = () => {
 
         {/* menu */}
 
-            <ul className='hidden md:flex font-bold text-white'>
+            <ul className='hidden pt-2 md:flex font-bold text-white'>
                 <li>
                     <Link to="home"  smooth={true}  duration={500}>
                     {t('home')}
@@ -59,8 +59,8 @@ const Navbar = () => {
 
             {/* Mobile menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#548f6f] text-[#e5e2c4] flex flex-col items-center'}>
-                <img className='max-w-[25%]' src={Logo} alt='logo'/>
-                <li className='py-6 text-4xl'>
+                <img className='max-w-[25%] pt-16' src={Logo} alt='logo'/>
+                <li className='pb-6 pt-20 text-4xl'>
                     <Link onClick={handleClick} to="home"  smooth={true}  duration={500}>
                     {t('home')}
                     </Link>
