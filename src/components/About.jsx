@@ -11,7 +11,7 @@ const About = () => {
     {/* About Heading */}
     <div className='max-w-[1000px] w-full px-4 text-center pb-8'>
       <p className='text-4xl font-bold inline border-b-4 border-[#548f6f]'>
-        About
+        {t("about")}
       </p>
     </div>
     
@@ -21,7 +21,12 @@ const About = () => {
         <p>{t("intro2")}</p>
       </div>
       <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aperiam officiis rem sunt perspiciatis perferendis mollitia, veritatis atque, sequi non similique, dolores illo asperiores at quod nostrum. Cupiditate, ab excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde commodi nobis odit molestiae voluptate nesciunt, quae architecto tempore obcaecati hic. Enim magnam quam, odit cumque placeat laudantium vel culpa iure.</p>
+        <p className='text-center pb-8 font-bold text-xl'>{t("why")}</p>
+        <ul className='list-inside text-left space-y-2'>
+          <li><span className="font-bold">{t("bulletb1")}</span> {t("bullet1")}</li>
+          <li><span className="font-bold">{t("bulletb2")}</span> {t("bullet2")}</li>
+          <li><span className="font-bold">{t("bulletb3")}</span> {t("bullet3")}</li>
+        </ul>
       </div>              
     </div>    
   </div>

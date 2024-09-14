@@ -96,13 +96,13 @@ const Navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a className='flex justify-between items-center w-full text-[#e5e2c4]'
-                        href="https://www.facebook.com/diego.callegari.7792/" target='blank'>
+                        href="https://www.facebook.com/profile.php?id=100084795074605" target='blank'>
                             Facebook <FaFacebook size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c71610]'>
                         <a className='flex justify-between items-center w-full text-[#e5e2c4]'
-                        href="https://maps.app.goo.gl/dzrG7HS6xtW5mT8N8" target='blank'>
+                        href="https://maps.app.goo.gl/5Ph29wCvR8R7XW9g6" target='blank'>
                             Location <FaMapMarkerAlt size={30} />
                         </a>
                     </li>
