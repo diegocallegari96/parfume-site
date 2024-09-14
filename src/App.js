@@ -7,6 +7,7 @@ import Shop from "./components/Shop";
 import Contact from "./components/Contact";
 import Landing from "./components/Landing"
 import RestrictedAccess from './components/RestrictedAcces';
+import bg from './assets/agebg.jpg'
 
 function App() {
   // State to track if the user has verified their age and whether they are allowed access
@@ -29,7 +30,7 @@ function App() {
 
       {/* Show the age verification modal if the user hasn't verified their age and isn't restricted */}
       {!ageVerified && !restricted && (
-        <div className="fixed inset-0 bg-gray-800 bg-opacity-90 flex items-center justify-center z-50">
+        <div style={{backgroundImage: `url(${bg})`, backgroundSize: 'cover'}} className="fixed inset-0 flex items-center justify-center z-50">
           <div className="bg-white p-8 rounded-lg text-center">
             <h1 className="text-2xl font-bold mb-4">Age Verification<br />การยืนยันอายุ</h1>
             <p className="mb-6">
