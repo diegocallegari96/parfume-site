@@ -13,11 +13,11 @@ const Navbar = () => {
   // UseEffect hook to track the scroll position
   useEffect(() => {
     const changeBackground = () => {
-      if (window.scrollY >= window.innerHeight) {
-        // User has scrolled past the height of the landing page
-        setNavBackground('bg-[#222222]');
+      if (window.scrollY >= 125) { // Change to threshold
+        // User has scrolled past treshold
+        setNavBackground('bg-[#333333]');
       } else {
-        // User is on the landing page
+        // User is still at the top of the page
         setNavBackground('bg-transparent');
       }
     };
