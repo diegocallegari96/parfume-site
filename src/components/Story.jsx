@@ -1,16 +1,16 @@
 import React from 'react'
 
 
-const About = () => {
+const Story = () => {
 
 
   return (
-<div name='about' className='w-full h-full py-40  bg-[#e5e2c4] text-black'>
+<div name='story' className='w-full h-full py-40  bg-[#e5e2c4] text-black'>
   <div className='flex flex-col justify-center items-center w-full h-full'>
     {/* About Heading */}
     <div className='max-w-[1000px] w-full px-4 text-center pb-8'>
       <p className='text-4xl font-bold inline border-b-4 border-[#548f6f]'>
-        About
+        Story
       </p>
     </div>
     
@@ -34,4 +34,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Story

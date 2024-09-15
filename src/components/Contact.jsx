@@ -2,21 +2,18 @@ import React from 'react'
 import { FaFacebook } from 'react-icons/fa'
 import { TfiEmail } from "react-icons/tfi";
 import { FaPhone } from "react-icons/fa6";
-import '../i18next'
-import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
-  const { t } = useTranslation()
 
   return (
     <div name='contact' className='w-full h-auto bg-[#e5e2c4] flex flex-col items-center pt-20 p-4'>
       <div className='flex flex-col justify-center items-center w-full max-w-[1000px]'>
         <div className='pb-8 text-center'>
-          <p className='text-4xl font-bold inline border-b-4 border-[#548f6f] text-black'>{t("contact")}</p>
+          <p className='text-4xl font-bold inline border-b-4 border-[#548f6f] text-black'>Contact</p>
 
           {/* Center the paragraph */}
           <div className='w-full flex justify-center items-center'>
-            <p className='text-[#575e73] py-4 text-center max-w-[50%]'>{t("intro3")}</p>
+            <p className='text-[#575e73] py-4 text-center max-w-[50%]'>de lul</p>
           </div>
         </div>
       </div>

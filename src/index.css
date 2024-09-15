@@ -20,3 +20,10 @@
     background-position: center;
     height: 380px;
 }
+
+@font-face {
+    font-family: "MilkyWay";   /* Ensure this matches the name you'll use in your component */
+    src: local("MilkyWay"),
+         url("./fonts/MilkyWalky-Regular.ttf") format("truetype"); /* Ensure this path is correct */
+}
+
