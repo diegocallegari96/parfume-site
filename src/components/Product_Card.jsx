@@ -13,7 +13,7 @@ const ProductCard = ({ name, imageSrc, thc, cbd, sativa, indica, effects, price,
         <p className='text-sm'><b>THC</b> {thc}% <b>CBD</b> {cbd}%</p>
         <p className='text-sm'><b>Sativa</b> {sativa}% <b>Indica</b> {indica}%</p>
         <p className='text-sm sm:text-xs'>{effects}</p>
-        <p className='text-sm mt-2 pl-28'>{t("from")} <b>฿{price}</b></p>
+        <p className='text-sm mt-6 pl-28'>{t("from")} <b>฿{price}</b></p>
       </div>
       <div className='flex justify-center rounded-b-lg bg-[#e5e2c4] text-5xl'>
         <a href={lineUrl} target="_blank" rel="noopener noreferrer">
