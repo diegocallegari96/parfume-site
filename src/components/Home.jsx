@@ -29,7 +29,13 @@ const Home = () => {
 
             {/* Flex container for buttons */}
             <div className="flex flex-col md:flex-row items-center my-8 md:my-0 space-y-4 md:space-y-0 md:space-x-4 justify-center md:justify-start">
-              <Link to="weed" smooth={true} duration={500}>
+              
+            </div>
+          </div>
+
+          <div className='hidden md:block ml-20 w-[60%] h-[100%] mt-20'>
+            <div className=''>
+            <Link to="weed" smooth={true} duration={500}>
                 <button className='text-grey-900 group border-2 px-6 py-3 flex items-center border-[#548f6f] hover:bg-[#548f6f] hover:border-[#3f7558]'>
                   koop
                   <span className='group-hover:rotate-90 duration-300'>
@@ -37,12 +43,6 @@ const Home = () => {
                   </span>
                 </button>
               </Link>
-            </div>
-          </div>
-
-          <div className='hidden md:block ml-20 w-[60%] h-[100%] mt-20'>
-            <div className=''>
-              
             </div>
           </div>
         </div>
