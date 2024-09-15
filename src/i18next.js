@@ -32,6 +32,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 bullet3: ": We strive to create a comfortable space where you can explore and learn without judgment.",
                 sativa: "Sativa",
                 indica: "Indica",
+                from: "From"
             },
         },
         th: {
@@ -60,6 +61,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 bullet3: ": เรามุ่งมั่นที่จะสร้างพื้นที่ที่สะดวกสบาย ที่คุณสามารถสำรวจและเรียนรู้ได้โดยไม่ถูกตัดสิน",
                 sativa: "ซาติว่า",
                 indica: "อินดิก้า",
+                from: "เริ่มต้นที่",
             },
         }
     }
