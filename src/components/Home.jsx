@@ -12,7 +12,7 @@ const Home = () => {
   const isThai = i18n.language === 'th';
 
   return (
-    <div name='home' className='w-full h-screen bg-[#e5e2c4] flex justify-center items-center'>
+    <div name='home' className='w-full h-screen bg-[#f6f4d8] flex justify-center items-center'>
 
       {/* Container */}
       <div className='max-w-[1200px] mx-auto px-8 flex flex-col justify-center items-center'>

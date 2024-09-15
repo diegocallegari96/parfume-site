@@ -6,7 +6,7 @@ const About = () => {
     const {t} = useTranslation()
 
   return (
-<div name='about' className='w-full h-full bg-[#e5e2c4] text-black'>
+<div name='about' className='w-full h-full py-40  bg-[#e5e2c4] text-black'>
   <div className='flex flex-col justify-center items-center w-full h-full'>
     {/* About Heading */}
     <div className='max-w-[1000px] w-full px-4 text-center pb-8'>

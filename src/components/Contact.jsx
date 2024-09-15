@@ -9,7 +9,7 @@ const Contact = () => {
   const { t } = useTranslation()
 
   return (
-    <div name='contact' className='w-full h-auto bg-[#e5e2c4] flex flex-col items-center p-4'>
+    <div name='contact' className='w-full h-auto bg-[#e5e2c4] flex flex-col items-center pt-20 p-4'>
       <div className='flex flex-col justify-center items-center w-full max-w-[1000px]'>
         <div className='pb-8 text-center'>
           <p className='text-4xl font-bold inline border-b-4 border-[#548f6f] text-black'>{t("contact")}</p>

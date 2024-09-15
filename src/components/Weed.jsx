@@ -10,10 +10,10 @@ import ProductCard from './Product_Card';
 const Weed = () => {
     const {t} = useTranslation()
   return (
-    <div name='weed' className=' w-full h-full pt-[100px] bg-[#e5e2c4] text-black'>
+    <div name='weed' className=' w-full h-full pt-[100px] bg-[#f6f4d8]  text-black'>
         {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center text-center w-full h-full '>
-            <div>
+            <div className='pb-8' >
                 <p className='text-4xl font-bold inline border-b-4 border-[#548f6f]'>{t("indica")}</p>
             </div>
                 {/* col aanpassen misschien naar 3?*/}
@@ -71,7 +71,7 @@ const Weed = () => {
                 messengerUrl="https://m.me/profile.php?id=100084795074605?ref=I%20would%20like%20to%20order%20Kaas%20Kush"
                 />
             </div>
-            <div>
+            <div className='py-8' >
                 <p className='text-4xl text-black font-bold inline border-b-4 border-[#548f6f]'>{t("sativa")}</p>
             </div>
                 {/* col aanpassen */}

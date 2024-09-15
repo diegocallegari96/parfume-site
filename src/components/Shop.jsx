@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next'
 const MyWork = () => {
   const {t} = useTranslation()
   return (
-    <div name='shop' className='w-full h-full text-[#575e73] text-center bg-[#e5e2c4]'>
+    <div name='shop' className='w-full h-full text-[#575e73] text-center pt-20 bg-[#e5e2c4]'>
         <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-black border-[#548f6f]'>{t("place")}</p>
