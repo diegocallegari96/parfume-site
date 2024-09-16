@@ -9,14 +9,14 @@ import IconLuxuriousPackaging from '../assets/ico5.png'
 
 const KeyFeatures = () => {
   return (
-    <div name='key-features' className='w-full min-h-screen bg-[#e7e6e6] text-black pt-1 pb-1'> {/* Added padding-bottom */}
+    <div name='key-features' className='w-full min-h-screen bg-[#e7e6e6] text-black pt-1 pb-1'>
       <div className='w-full mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 min-h-screen'>
         
         {/* Left side: Key Features (80%) */}
         <div className='col-span-4 flex flex-col justify-start mt-6'>
           {/* Heading and Intro Paragraph */}  
           <div className='text-center'>
-            <h2 className='text-4xl font-bold pt-8 mb-4' style={{ fontFamily: 'MilkyWay', fontSize: '2.5rem' }}> {/* Font size adjusted for mobile */}
+            <h2 className='text-4xl font-bold pt-8 mb-4' style={{ fontFamily: 'MilkyWay', fontSize: '2.5rem' }}> 
               Discover the Essence
             </h2>
             <p className='text-lg max-w-[800px] mx-auto mb-8 px-4 md:px-0'>
@@ -27,8 +27,8 @@ const KeyFeatures = () => {
           {/* Key Features Grid */}
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-0'>
             <div className='flex flex-col items-center text-center'>
-              <img src={IconElegance} alt='Elegance Icon' className='w-16 h-16 md:w-24 md:h-24'/> {/* Adjust size for mobile */}
-              <h3 className='text-xl font-bold mt-2' style={{ fontFamily: 'MilkyWay', fontSize: '1.8rem' }}> {/* Font size adjusted */}
+              <img src={IconElegance} alt='Elegance Icon' className='w-16 h-16 md:w-24 md:h-24'/>
+              <h3 className='text-xl font-bold mt-2' style={{ fontFamily: 'MilkyWay', fontSize: '1.8rem' }}> 
                 Elegance
               </h3>
               <p className='text-lg pt-2'>

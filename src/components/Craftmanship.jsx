@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/mandalabg.jpg' // Replace with your background image
+import bg from '../assets/mandalabg.jpg' 
 
 const craftsmanship = () => {
   return (
@@ -10,7 +10,7 @@ const craftsmanship = () => {
         style={{ 
           backgroundImage: `url(${bg})`, 
           backgroundSize: 'cover', 
-          transform: 'rotate(180deg)'  // Rotate the background by 180 degrees
+          transform: 'rotate(180deg)'
         }}
       />
 

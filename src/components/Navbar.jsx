@@ -46,12 +46,14 @@ const Navbar = () => {
 
         {/* Logo in the Middle for Large Screens, Centered on Mobile */}
         <div className="flex-shrink-0 flex justify-start md:justify-center w-full md:w-auto">
-          <img
-            src={Logo}
-            alt="Logo"
-            style={{ height: '150px', width: 'auto', marginTop: '-0.5rem', marginLeft: '-1.5rem' }}  // Adjust the height of the logo for mobile
-            className="max-w-none"
-          />
+          <Link to="landing" smooth={true} duration={500}>
+            <img
+              src={Logo}
+              alt="Logo"
+              style={{ height: '150px', width: 'auto', marginTop: '-0.5rem', marginLeft: '-1.5rem' }} 
+              className="max-w-none cursor-pointer"
+            />
+          </Link>
         </div>
 
         {/* Right Section */}
@@ -91,7 +93,7 @@ const Navbar = () => {
         }`}
         style={{ width: '70%', fontFamily: 'MilkyWay' }}
       >
-        <li className='pb-6 pt-48 text-3xl'> {/* Adjusted font size for mobile */}
+        <li className='pb-6 pt-48 text-3xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>

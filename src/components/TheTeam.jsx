@@ -8,7 +8,7 @@ const TheTeam = () => {
   return (
     <div name='team' className='w-full h-full pt-16 pb-28 text-[#575e73] text-center bg-white' style={{backgroundImage: `url(${bg})`, backgroundSize: "cover"}}>
       <div className='mx-auto px-4 flex flex-col justify-center w-[90%] h-full'>
-        <h2 className='font-bold pb-8 text-white' style={{ fontFamily: 'MilkyWay', fontSize: '5rem' }}> {/* Adjusted font size for mobile */}
+        <h2 className='font-bold pb-8 text-white' style={{ fontFamily: 'MilkyWay', fontSize: '5rem' }}>
           Our Team
         </h2>
         
@@ -22,7 +22,7 @@ const TheTeam = () => {
             />
             {/* Name card */}
             <div className='absolute bottom-0 w-full bg-white bg-opacity-90 py-2'>
-              <h3 className='font-bold text-lg md:text-xl'>Isabelle Fontaine</h3> {/* Adjusted text size for mobile */}
+              <h3 className='font-bold text-lg md:text-xl'>Isabelle Fontaine</h3>
               <p className='text-sm'>Perfume Specialist</p>
             </div>
           </div>
@@ -35,7 +35,7 @@ const TheTeam = () => {
             />
             {/* Name card */}
             <div className='absolute bottom-0 w-full bg-white bg-opacity-90 py-2'>
-              <h3 className='font-bold text-lg md:text-xl'>Sophie Laurent</h3> {/* Adjusted text size for mobile */}
+              <h3 className='font-bold text-lg md:text-xl'>Sophie Laurent</h3> 
               <p className='text-sm'>Fragrance Consultant</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const TheTeam = () => {
             />
             {/* Name card */}
             <div className='absolute bottom-0 w-full bg-white bg-opacity-90 py-2'>
-              <h3 className='font-bold text-lg md:text-xl'>Elena Dufour</h3> {/* Adjusted text size for mobile */}
+              <h3 className='font-bold text-lg md:text-xl'>Elena Dufour</h3>
               <p className='text-sm'>Creative Director</p>
             </div>
           </div>

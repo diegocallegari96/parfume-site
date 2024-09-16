@@ -11,7 +11,7 @@ const About = () => {
           <div className='w-full md:w-[50%] h-[100%] pt-16 pr-0 md:pr-16'>
             <div className='flex flex-col text-center md:text-left mt-[-2rem] md:mt-[-10rem]'>
               <h2
-                style={{ fontFamily: 'MilkyWay', fontSize: '3rem' }} // Adjust font size for mobile
+                style={{ fontFamily: 'MilkyWay', fontSize: '3rem' }} 
                 className='mb-4 pt-10 font-bold text-[#000000]'>
                 About
               </h2>

@@ -3,7 +3,7 @@ import bg from "../assets/parfumebg.jpg"
 
 const Landing = () => {
   return (
-    <div name='home' 
+    <div name='landing' 
          style={{backgroundImage: `url(${bg})`, backgroundSize: "cover"}} 
          className='w-screen h-screen flex text-center justify-center items-center'>
       <div className='text-center px-4 lg:mt-8'>

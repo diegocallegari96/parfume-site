@@ -40,11 +40,10 @@ const StoryVid = () => {
     <div name='story' className='relative w-screen h-screen flex justify-center items-center'>
       {/* Video Background */}
       <video
-        ref={videoRef} // Ensure the ref is on the video element, not the container div
+        ref={videoRef}
         className="absolute top-0 left-0 w-full h-full object-cover"
         src={videoBg}
         muted
-        loop
       />
 
       {/* Overlay Content */}

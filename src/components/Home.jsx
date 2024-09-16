@@ -19,12 +19,12 @@ const Home = () => {
           <div className='w-full md:w-[50%] h-[100%] px-6 md:px-16'>
             <div className='flex flex-col text-center md:text-left mt-8 md:mt-[-10rem]'>
               <h2
-                style={{ fontFamily: 'MilkyWay', fontSize: '3rem' }} // Adjust font size for mobile
+                style={{ fontFamily: 'MilkyWay', fontSize: '3rem' }}
                 className={`mb-2 font-bold text-[#000000]`}>
                 Seraphine
               </h2>
               <h2
-                style={{ fontFamily: 'MilkyWay', fontSize: '3rem' }} // Adjust font size for mobile
+                style={{ fontFamily: 'MilkyWay', fontSize: '3rem' }}
                 className={`font-bold text-grey-600 mt-[-1.5rem] md:mt-[-5rem] md:pl-[13rem]`}>
                 Scent
               </h2>

@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/mandalabg.jpg' // Replace with your background image
+import bg from '../assets/mandalabg.jpg' 
 
 const InspirationPage = () => {
   return (
