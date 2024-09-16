@@ -59,13 +59,13 @@ const Navbar = () => {
         {/* Right Section */}
         <ul style={{ fontFamily: 'MilkyWay' }} className="hidden md:flex font-bold text-white space-x-6">
           <li>
-            <Link to="notes" smooth={true} duration={500}>
-              Fragrance Notes
+            <Link to="ingredients" smooth={true} duration={500}>
+              Ingredients
             </Link>
           </li>
           <li>
-            <Link to="shop" smooth={true} duration={500}>
-              Ingredients
+            <Link to="notes" smooth={true} duration={500}>
+              Fragrance Notes
             </Link>
           </li>
           <li>
@@ -82,7 +82,7 @@ const Navbar = () => {
       )}
 
       {/* Hamburger Icon */}
-      <div onClick={handleClick} className='md:hidden z-20 text-white'>
+      <div onClick={handleClick} className='md:hidden z-20 pr-4 text-white'>
         {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
       </div>
 
@@ -109,13 +109,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-3xl'>
-          <Link onClick={handleClick} to="notes" smooth={true} duration={500}>
-            Fragrance Notes
+          <Link onClick={handleClick} to="shop" smooth={true} duration={500}>
+            Ingredients
           </Link>
         </li>
         <li className='py-6 text-3xl'>
-          <Link onClick={handleClick} to="shop" smooth={true} duration={500}>
-            Ingredients
+          <Link onClick={handleClick} to="notes" smooth={true} duration={500}>
+            Fragrance Notes
           </Link>
         </li>
         <li className='py-6 text-3xl'>

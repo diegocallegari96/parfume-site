@@ -11,6 +11,8 @@ import TheTeam from './components/TheTeam';
 import StoryVid from './components/Story';
 import Inspiration from './components/Inpspiration'
 import Craftmanship from './components/Craftmanship';
+import Ingredients from './components/Ingredients';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -27,7 +29,9 @@ function App() {
           <StoryVid />
           <Inspiration />
           <Craftmanship />
+          <Ingredients />
           <FragranceNotes />
+          <Footer />
           {/* <Contact /> */}
         </>
     </div>

@@ -1,78 +1,63 @@
 import React from 'react';
 
-const Ingredients = () => {
+const FragranceNotes = () => {
   return (
-    <div name='ingredients' className='w-full h-full py-20 bg-white text-black'>
+    <div name='notes' className='w-full h-full pt-40 bg-white text-black'>
       
-      {/* Key Ingredients Section */}
+      {/* Fragrance Notes Section */}
       <div className='flex flex-col justify-center items-center w-full h-full'>
         {/* Heading */}
         <div className='max-w-[1200px] w-full px-4 text-center pb-8'>
-          <h2 className='text-4xl md:text-6xl font-bold' style={{ fontFamily: 'MilkyWay' }}>
-            Key Ingredients
+          <h2 className='text-6xl font-bold' style={{ fontFamily: 'MilkyWay' }}>
+            Fragrance Notes
           </h2>
-          <p className='text-lg md:text-2xl mt-4 text-[#575e73]'>The Essence of Seraphine Scent</p>
+          <p className='text-2xl mt-4 text-[#575e73]'>Discover the captivating layers of Seraphine Scent</p>
         </div>
 
-        {/* Ingredient List */}
-        <div className='max-w-[1200px] w-full grid grid-cols-1 sm:grid-cols-2 gap-8 pb-8 px-4'>
-          {/* Bergamot */}
+        {/* Notes List */}
+        <div className='max-w-[1200px] w-full grid sm:grid-cols-3 gap-8 pb-8 px-4'>
+          {/* Top Notes */}
           <div className='bg-[#f7f7f7] shadow-lg rounded-lg p-6'>
-            <h3 className='text-2xl md:text-3xl font-bold text-black' style={{ fontFamily: 'MilkyWay' }}>Bergamot</h3>
-            <p className='text-md md:text-lg mt-2 text-[#747884] italic'>Sourced from the sun-drenched orchards of Southern Italy.</p>
-            <p className='text-md md:text-lg mt-4'>Adds a fresh, zesty start with its bright, citrusy profile.</p>
+            <h3 className='text-3xl font-bold text-black text-center' style={{ fontFamily: 'MilkyWay' }}>Top Notes</h3>
+            <ul className='mt-4 space-y-2'>
+              <li className='text-xl'><strong>Bergamot</strong> – A fresh and vibrant burst of citrus to uplift your senses.</li>
+              <li className='text-xl'><strong>Pear Blossom</strong> – Soft, fruity, and delicate, adding a sweet freshness to the opening.</li>
+            </ul>
           </div>
 
-          {/* Pear Blossom */}
+          {/* Heart Notes */}
           <div className='bg-[#f7f7f7] shadow-lg rounded-lg p-6'>
-            <h3 className='text-2xl md:text-3xl font-bold text-black' style={{ fontFamily: 'MilkyWay' }}>Pear Blossom</h3>
-            <p className='text-md md:text-lg mt-2 text-[#747884] italic'>A delicate touch of sweetness.</p>
-            <p className='text-md md:text-lg mt-4'>Offers a fruity, soft element that enhances the freshness of the top notes.</p>
+            <h3 className='text-3xl font-bold text-black text-center' style={{ fontFamily: 'MilkyWay' }}>Heart Notes</h3>
+            <ul className='mt-4 space-y-2'>
+              <li className='text-xl'><strong>Jasmine</strong> – A lush floral essence that embodies elegance.</li>
+              <li className='text-xl'><strong>Rose Petals</strong> – Soft, romantic, and timeless, adding depth and sophistication to the scent.</li>
+            </ul>
           </div>
 
-          {/* Jasmine */}
+          {/* Base Notes */}
           <div className='bg-[#f7f7f7] shadow-lg rounded-lg p-6'>
-            <h3 className='text-2xl md:text-3xl font-bold text-black' style={{ fontFamily: 'MilkyWay' }}>Jasmine</h3>
-            <p className='text-md md:text-lg mt-2 text-[#747884] italic'>Handpicked from the fields of India.</p>
-            <p className='text-md md:text-lg mt-4'>Brings floral richness, opulence, and an exotic scent to the heart of Seraphine Scent.</p>
-          </div>
-
-          {/* Rose Petals */}
-          <div className='bg-[#f7f7f7] shadow-lg rounded-lg p-6'>
-            <h3 className='text-2xl md:text-3xl font-bold text-black' style={{ fontFamily: 'MilkyWay' }}>Rose Petals</h3>
-            <p className='text-md md:text-lg mt-2 text-[#747884] italic'>Finest petals for timeless beauty.</p>
-            <p className='text-md md:text-lg mt-4'>Adds elegance and sophistication, blending seamlessly with other notes.</p>
-          </div>
-
-          {/* Sandalwood */}
-          <div className='bg-[#f7f7f7] shadow-lg rounded-lg p-6'>
-            <h3 className='text-2xl md:text-3xl font-bold text-black' style={{ fontFamily: 'MilkyWay' }}>Sandalwood</h3>
-            <p className='text-md md:text-lg mt-2 text-[#747884] italic'>Sustainably sourced from Australia.</p>
-            <p className='text-md md:text-lg mt-4'>Provides a warm, woody undertone that adds depth and richness.</p>
-          </div>
-
-          {/* Amber */}
-          <div className='bg-[#f7f7f7] shadow-lg rounded-lg p-6'>
-            <h3 className='text-2xl md:text-3xl font-bold text-black' style={{ fontFamily: 'MilkyWay' }}>Amber</h3>
-            <p className='text-md md:text-lg mt-2 text-[#747884] italic'>Sweet, resinous aroma for the perfect finish.</p>
-            <p className='text-md md:text-lg mt-4'>Adds warmth and longevity, ensuring the fragrance stays with you.</p>
+            <h3 className='text-3xl font-bold text-black text-center' style={{ fontFamily: 'MilkyWay' }}>Base Notes</h3>
+            <ul className='mt-4 space-y-2'>
+              <li className='text-xl'><strong>Sandalwood</strong> – A warm and woody aroma that lingers on the skin, grounding the fragrance in a rich earthy tone.</li>
+              <li className='text-xl'><strong>Amber</strong> – Adds a subtle sweetness and warmth, leaving a long-lasting, luxurious finish.</li>
+            </ul>
           </div>
         </div>
       </div>
 
-      {/* Commitment to Quality Section */}
+      {/* Story Section */}
       <div className='flex flex-col justify-center items-center w-full h-full py-24 bg-[#f7f7f7]'>
         {/* Heading */}
         <div className='max-w-[1200px] w-full px-4 text-center pb-8'>
-          <h2 className='text-4xl md:text-5xl font-bold inline border-b-4 border-black' style={{ fontFamily: 'MilkyWay' }}>
-            Our Commitment to Quality
+          <h2 className='text-5xl font-bold' style={{ fontFamily: 'MilkyWay' }}>
+            A Fragrance that Evolves with You
           </h2>
         </div>
 
-        {/* Commitment Details */}
+        {/* Story Details */}
         <div className='max-w-[1000px] text-center'>
-          <p className='text-md md:text-lg text-[#747884] px-4 md:px-8'>
-            At Seraphine Scent, we prioritize quality and sustainability in every aspect of our production process. Our ingredients are ethically sourced, and we adhere to the highest standards of craftsmanship, ensuring that every bottle of <i>Seraphine Scent</i> is a true work of art. Free from harmful chemicals, we offer a luxurious and eco-conscious fragrance designed to elevate your senses.
+          <p className='text-lg text-[#747884] px-8'>
+            Each layer of <i>Seraphine Scent</i> tells a story, evolving as the day progresses, revealing a new side of yourself with every hour. From the light, airy top notes to the rich and sultry base, this fragrance is designed to complement your unique presence, ensuring a long-lasting, luxurious finish.
           </p>
         </div>
       </div>
@@ -80,4 +65,4 @@ const Ingredients = () => {
   );
 };
 
-export default Ingredients;
+export default FragranceNotes;
