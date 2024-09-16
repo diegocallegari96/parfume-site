@@ -4,8 +4,12 @@ import bg from "../assets/parfumebg.jpg"
 const Landing = () => {
   return (
     <div name='landing' 
-         style={{backgroundImage: `url(${bg})`, backgroundSize: "cover"}} 
-         className='w-screen h-screen flex text-center justify-center items-center'>
+         style={{ 
+           backgroundImage: `url(${bg})`, 
+           backgroundSize: "cover", 
+           backgroundPosition: "center"
+         }} 
+         className='w-screen h-screen flex text-center justify-center items-center bg-right md:bg-center'> 
       <div className='text-center px-4 lg:mt-8'>
         {/* Large Seraphine Scent Text */}
         <p style={{ fontFamily: 'MilkyWay', lineHeight: '5rem' }} 
