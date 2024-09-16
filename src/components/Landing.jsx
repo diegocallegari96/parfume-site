@@ -1,19 +1,25 @@
 import React from 'react'
 import bg from "../assets/parfumebg.jpg"
 
-
 const Landing = () => {
   return (
-    <div name='home' style={{backgroundImage: `url(${bg})`, backgroundSize: "cover"}} className='w-screen h-screen flex text-center justify-center items-center'>
-        <div className='text-center'>
-        <p style={{ fontFamily: 'MilkyWay', fontSize: '12rem' }} className='font-bold mb-0 text-[#ffff]' >
+    <div name='home' 
+         style={{backgroundImage: `url(${bg})`, backgroundSize: "cover"}} 
+         className='w-screen h-screen flex text-center justify-center items-center'>
+      <div className='text-center px-4 lg:mt-8'>
+        {/* Large Seraphine Scent Text */}
+        <p style={{ fontFamily: 'MilkyWay', lineHeight: '5rem' }} 
+           className='font-bold mb-0 text-[#ffff] text-[4rem] sm:text-[5rem] md:text-[8rem] lg:text-[10rem] leading-none'>
           Seraphine Scent
         </p>
-        <p style={{ fontFamily: 'MilkyWay', fontSize: '4rem' }} className='font-bold text-left mt-[-6rem] text-[#ffff]' >
+
+        {/* Smaller Parfume Text closely underneath */}
+        <p style={{ fontFamily: 'MilkyWay' }} 
+           className='font-bold mt-[-0.5rem] text-[#ffff] lg:text-left text-[2rem] md:text-[4rem]'>
           Parfume
         </p>
       </div>
-      </div>
+    </div>
   )
 }
 

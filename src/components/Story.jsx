@@ -49,10 +49,17 @@ const StoryVid = () => {
 
       {/* Overlay Content */}
       <div className='relative text-center z-10'>
-        <p style={{ fontFamily: 'MilkyWay', fontSize: '4rem' }} className='font-bold pt-24 text-left text-[#ffff]'>
+        {/* "The Story Behind" text */}
+        <p 
+          style={{ fontFamily: 'MilkyWay' }}
+          className='font-bold text-[#ffff] text-[2rem] sm:text-[3rem] md:text-[4rem] lg:text-left leading-none'>
           The Story Behind
         </p>
-        <h2 style={{ fontFamily: 'MilkyWay', fontSize: '12rem' }} className='font-bold mt-[-5rem] text-[#ffff]'>
+
+        {/* "Seraphine Scent" text */}
+        <h2 
+          style={{ fontFamily: 'MilkyWay' }} 
+          className='font-bold text-[#ffff] mt-[-0.5rem] text-[4rem] sm:text-[6rem] md:text-[12rem] leading-none'>
           Seraphine Scent
         </h2>
       </div>

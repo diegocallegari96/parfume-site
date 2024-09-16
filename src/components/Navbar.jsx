@@ -44,12 +44,12 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Logo in the Middle */}
-        <div className="flex-shrink-0 flex justify-start ml-[4rem] pt-[3rem] md:justify-center w-full md:w-auto">
+        {/* Logo in the Middle for Large Screens, Centered on Mobile */}
+        <div className="flex-shrink-0 flex justify-start md:justify-center w-full md:w-auto">
           <img
             src={Logo}
             alt="Logo"
-            style={{ height: '180px', width: 'auto', marginTop: '-3rem', paddingLeft: '4rem' }}  // Adjust the height of the logo
+            style={{ height: '150px', width: 'auto', marginTop: '-0.5rem', marginLeft: '-1.5rem' }}  // Adjust the height of the logo for mobile
             className="max-w-none"
           />
         </div>
@@ -89,34 +89,34 @@ const Navbar = () => {
         className={`fixed top-0 right-0 h-screen bg-[#e0e0e0] text-[#000000] flex flex-col items-center transition-transform duration-500 ease-in-out ${
           nav ? 'translate-x-0' : 'translate-x-full'
         }`}
-        style={{ width: '75%', fontFamily: 'MilkyWay' }}
+        style={{ width: '70%', fontFamily: 'MilkyWay' }}
       >
-        <li className='pb-6 pt-20 text-4xl'>
+        <li className='pb-6 pt-48 text-3xl'> {/* Adjusted font size for mobile */}
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-3xl'>
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-3xl'>
           <Link onClick={handleClick} to="story" smooth={true} duration={500}>
             Story
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-3xl'>
           <Link onClick={handleClick} to="notes" smooth={true} duration={500}>
             Fragrance Notes
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-3xl'>
           <Link onClick={handleClick} to="shop" smooth={true} duration={500}>
             Ingredients
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-3xl'>
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
