@@ -27,8 +27,8 @@ function App() {
           <StoryVid />
           <Inspiration />
           <Craftmanship />
-          {/* <FragranceNotes />
-          <Contact /> */}
+          <FragranceNotes />
+          {/* <Contact /> */}
         </>
     </div>
   );
