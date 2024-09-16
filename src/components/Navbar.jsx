@@ -1,39 +1,32 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../assets/testlogo.png';
+import Logo from '../assets/logo-white.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
-  // State to track the background color of the navbar
   const [navBackground, setNavBackground] = useState('bg-transparent');
   const [nav, setNav] = useState(false);
 
   const handleClick = () => setNav(!nav);
 
-  // UseEffect hook to track the scroll position
   useEffect(() => {
     const changeBackground = () => {
-      if (window.scrollY >= 125) { // Change to threshold
-        // User has scrolled past treshold
+      if (window.scrollY >= 125) {
         setNavBackground('bg-[#333333]');
       } else {
-        // User is still at the top of the page
         setNavBackground('bg-transparent');
       }
     };
 
-    // Add event listener for scroll
     window.addEventListener('scroll', changeBackground);
-
-    // Clean up event listener on component unmount
     return () => window.removeEventListener('scroll', changeBackground);
   }, []);
 
   return (
-    <div className={`fixed w-full flex justify-between items-center z-10 pt-2 px-4 pb-2 text-gray-900 ${navBackground} ${navBackground === 'bg-transparent' ? 'border-b-2 border-white' : ''} transition-all duration-300`}>
-      <div className="flex items-center justify-between w-full">
+    <div className={`fixed w-full flex justify-between items-center z-10 pt-2 px-4 pb-2 text-gray-900 ${navBackground} transition-all duration-300`} style={{ height: '90px' }}>
+      <div className="flex items-center justify-between w-full h-full">
         {/* Left Section */}
-        <ul style={{ fontFamily: 'MilkyWay' }} className='hidden md:flex text-white space-x-6'>
+        <ul style={{ fontFamily: 'MilkyWay' }} className="hidden md:flex text-white space-x-6">
           <li>
             <Link to="home" smooth={true} duration={500}>
               Home
@@ -52,12 +45,17 @@ const Navbar = () => {
         </ul>
 
         {/* Logo in the Middle */}
-        <div className="flex-shrink-0">
-          <img src={Logo} alt="Logo" style={{ width: '80px' }} />
+        <div className="flex-shrink-0 flex justify-start ml-[4rem] pt-[3rem] md:justify-center w-full md:w-auto">
+          <img
+            src={Logo}
+            alt="Logo"
+            style={{ height: '180px', width: 'auto', marginTop: '-3rem', paddingLeft: '4rem' }}  // Adjust the height of the logo
+            className="max-w-none"
+          />
         </div>
 
         {/* Right Section */}
-        <ul style={{ fontFamily: 'MilkyWay' }} className='hidden md:flex text-white space-x-6'>
+        <ul style={{ fontFamily: 'MilkyWay' }} className="hidden md:flex text-white space-x-6">
           <li>
             <Link to="notes" smooth={true} duration={500}>
               Fragrance Notes
@@ -76,14 +74,23 @@ const Navbar = () => {
         </ul>
       </div>
 
+      {/* Bottom Border for Transparent Background */}
+      {navBackground === 'bg-transparent' && (
+        <div className="absolute bottom-0 left-0 right-0 mx-auto w-[95%] border-b-2 rounded-b-full border-white"></div>
+      )}
+
       {/* Hamburger Icon */}
-      <div onClick={handleClick} className='md:hidden z-10'>
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={handleClick} className='md:hidden z-20 text-white'>
+        {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
       </div>
 
-      {/* Mobile Menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#548f6f] text-[#e5e2c4] flex flex-col items-center'}>
-        <img className='max-w-[25%] pt-16' src={Logo} alt='logo' />
+      {/* Mobile Menu with sliding animation */}
+      <ul
+        className={`fixed top-0 right-0 h-screen bg-[#e0e0e0] text-[#000000] flex flex-col items-center transition-transform duration-500 ease-in-out ${
+          nav ? 'translate-x-0' : 'translate-x-full'
+        }`}
+        style={{ width: '75%' }}
+      >
         <li className='pb-6 pt-20 text-4xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home

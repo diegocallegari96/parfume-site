@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
+import PhotoFrame from "./components/PhotoFrame";
 import FragranceNotes from "./components/FragranceNotes";
 import Shop from "./components/Shop";
 import Contact from "./components/Contact";
 import Landing from "./components/Landing";
-import Story from "./components/Story";
+import KeyFeatures from "./components/KeyFeatures";
 
 function App() {
 
@@ -16,11 +16,11 @@ function App() {
           <Navbar />
           <Landing />
           <Home />
-          <About />
-          <Story />
-          <FragranceNotes />
+          <PhotoFrame />
+          <KeyFeatures />
+          {/* <FragranceNotes />
           <Shop />
-          <Contact />
+          <Contact /> */}
         </>
     </div>
   );
