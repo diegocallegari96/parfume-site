@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
 
         {/* Right Section */}
-        <ul style={{ fontFamily: 'MilkyWay' }} className="hidden md:flex text-white space-x-6">
+        <ul style={{ fontFamily: 'MilkyWay' }} className="hidden md:flex font-bold text-white space-x-6">
           <li>
             <Link to="notes" smooth={true} duration={500}>
               Fragrance Notes
@@ -89,7 +89,7 @@ const Navbar = () => {
         className={`fixed top-0 right-0 h-screen bg-[#e0e0e0] text-[#000000] flex flex-col items-center transition-transform duration-500 ease-in-out ${
           nav ? 'translate-x-0' : 'translate-x-full'
         }`}
-        style={{ width: '75%' }}
+        style={{ width: '75%', fontFamily: 'MilkyWay' }}
       >
         <li className='pb-6 pt-20 text-4xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>

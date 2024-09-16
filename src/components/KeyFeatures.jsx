@@ -9,8 +9,8 @@ import IconLuxuriousPackaging from '../assets/ico5.png'
 
 const KeyFeatures = () => {
   return (
-    <div name='' className='w-full min-h-screen pb-8 bg-[#e7e6e6] text-black pt-1'>
-      <div className='w-full mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 h-full'>
+    <div name='' className='w-full min-h-screen bg-[#e7e6e6] text-black pt-1'>
+      <div className='w-full mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 min-h-screen'>
         
         {/* Left side: Key Features (80%) */}
         <div className='col-span-4 flex flex-col justify-start mt-6'>
@@ -79,7 +79,7 @@ const KeyFeatures = () => {
         </div>
 
         {/* Right side: Image (20%) */}
-        <div className='col-span-1 w-full h-screen pt-12'>
+        <div className='col-span-1 w-full h-full'>
           <img src={PerfumeImage} alt='Seraphine Scent Perfume' className='w-full h-full object-cover pr-1' />
         </div>
       </div>
