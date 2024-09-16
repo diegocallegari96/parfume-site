@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`fixed w-full flex justify-between items-center z-10 pt-2 px-4 pb-2 text-gray-900 ${navBackground} transition-all duration-300`} style={{ height: '90px' }}>
+    <div className={`fixed w-full flex justify-between items-center z-20 pt-2 px-4 pb-2 text-gray-900 ${navBackground} transition-all duration-300`} style={{ height: '90px' }}>
       <div className="flex items-center justify-between w-full h-full">
         {/* Left Section */}
         <ul style={{ fontFamily: 'MilkyWay' }} className="hidden md:flex text-white space-x-6">

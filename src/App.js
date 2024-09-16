@@ -9,6 +9,8 @@ import Landing from "./components/Landing";
 import KeyFeatures from "./components/KeyFeatures";
 import TheTeam from './components/TheTeam';
 import StoryVid from './components/Story';
+import Inspiration from './components/Inpspiration'
+import Craftmanship from './components/Craftmanship';
 
 function App() {
 
@@ -19,10 +21,12 @@ function App() {
           <Landing />
           <Home />
           <PhotoFrame />
-          <KeyFeatures />
           <About />
+          <KeyFeatures />
           <TheTeam />
           <StoryVid />
+          <Inspiration />
+          <Craftmanship />
           {/* <FragranceNotes />
           <Contact /> */}
         </>

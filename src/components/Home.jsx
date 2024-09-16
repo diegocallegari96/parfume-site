@@ -38,7 +38,7 @@ const Home = () => {
 
             {/* Centered Button */}
             <div className='flex justify-center items-center mt-4'>
-              <Link to="weed" smooth={true} duration={500}>
+              <Link to="about" smooth={true} duration={500}>
                 <button className='text-grey-900 group border-2 px-6 py-3 flex items-center border-black hover:bg-black hover:text-white'>
                   Learn More
                   <span className=''>

@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from '../assets/flower.mp4'  // Import your MP4 video file
+import videoBg from '../assets/flower.mp4'
 
 const StoryVid = () => {
   return (
