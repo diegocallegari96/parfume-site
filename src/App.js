@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import PhotoFrame from "./components/PhotoFrame";
 import FragranceNotes from "./components/FragranceNotes";
-import Shop from "./components/Shop";
+import About   from "./components/About";
 import Contact from "./components/Contact";
 import Landing from "./components/Landing";
 import KeyFeatures from "./components/KeyFeatures";
+import TheTeam from './components/TheTeam';
 
 function App() {
 
@@ -18,8 +19,9 @@ function App() {
           <Home />
           <PhotoFrame />
           <KeyFeatures />
+          <About />
+          <TheTeam />
           {/* <FragranceNotes />
-          <Shop />
           <Contact /> */}
         </>
     </div>

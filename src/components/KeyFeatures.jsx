@@ -9,7 +9,7 @@ import IconLuxuriousPackaging from '../assets/ico5.png'
 
 const KeyFeatures = () => {
   return (
-    <div name='story' className='w-full min-h-screen bg-[#e7e6e6] text-black pt-1'>
+    <div name='' className='w-full min-h-screen pb-8 bg-[#e7e6e6] text-black pt-1'>
       <div className='w-full mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 h-full'>
         
         {/* Left side: Key Features (80%) */}
@@ -28,7 +28,7 @@ const KeyFeatures = () => {
           <div className='grid grid-cols-1 px-4 md:grid-cols-3 gap-8'>
             <div className='flex flex-col items-center text-center'>
               <img src={IconElegance} alt='Elegance Icon' className='w-24 h-24'/>
-              <h3 className='text-xl font-bold mt-4'
+              <h3 className='text-xl font-bold'
               style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
                 Elegance</h3>
               <p className='text-lg pt-4'>
@@ -37,7 +37,7 @@ const KeyFeatures = () => {
             </div>
             <div className='flex flex-col items-center text-center'>
               <img src={IconLongLasting} alt='Long-Lasting Icon' className='w-24 h-24'/>
-              <h3 className='text-xl font-bold mt-4' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
+              <h3 className='text-xl font-bold' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
                 Long-Lasting</h3>
               <p className='text-lg pt-4'>
                 Enjoy a scent that lasts all day. Seraphine Scent ensures you remain captivating from morning to night.
@@ -45,7 +45,7 @@ const KeyFeatures = () => {
             </div>
             <div className='flex flex-col items-center text-center'>
               <img src={IconCraftedWithCare} alt='Crafted with Care Icon' className='w-24 h-24'/>
-              <h3 className='text-xl font-bold mt-4' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
+              <h3 className='text-xl font-bold' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
                 Crafted with Care</h3>
               <p className='text-lg pt-4'>
                 Each bottle of Seraphine Scent is a work of art, crafted with precision and care using the finest natural ingredients.
@@ -53,7 +53,7 @@ const KeyFeatures = () => {
             </div>
             <div className='flex flex-col items-center text-center'>
               <img src={IconSignatureFragrance} alt='Signature Fragrance Icon' className='w-24 h-24'/>
-              <h3 className='text-xl font-bold mt-4' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
+              <h3 className='text-xl font-bold' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
                 Signature Fragrance</h3>
               <p className='text-lg pt-4'>
                 A unique blend of top, middle, and base notes creates a signature scent that is truly unforgettable and personalized.
@@ -61,7 +61,7 @@ const KeyFeatures = () => {
             </div>
             <div className='flex flex-col items-center text-center'>
               <img src={IconExclusivity} alt='Exclusivity Icon' className='w-24 h-24'/>
-              <h3 className='text-xl font-bold mt-4' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
+              <h3 className='text-xl font-bold' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
                 Exclusivity</h3>
               <p className='text-lg pt-4'>
                 Seraphine Scent is a limited edition release. Experience the exclusivity of a fragrance designed for those who appreciate the finer things in life.
@@ -69,7 +69,7 @@ const KeyFeatures = () => {
             </div>
             <div className='flex flex-col items-center text-center'>
               <img src={IconLuxuriousPackaging} alt='Luxurious Packaging Icon' className='w-24 h-24'/>
-              <h3 className='text-xl font-bold mt-4' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
+              <h3 className='text-xl font-bold' style={{ fontFamily: 'MilkyWay', fontSize: '2rem' }}>
                 Luxurious Packaging</h3>
               <p className='text-lg pt-4'>
                 Encased in premium packaging, Seraphine Scent is perfect for both personal indulgence or gifting to someone special.
@@ -79,7 +79,7 @@ const KeyFeatures = () => {
         </div>
 
         {/* Right side: Image (20%) */}
-        <div className='col-span-1 w-full h-screen'>
+        <div className='col-span-1 w-full h-screen pt-12'>
           <img src={PerfumeImage} alt='Seraphine Scent Perfume' className='w-full h-full object-cover pr-1' />
         </div>
       </div>

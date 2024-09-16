@@ -6,7 +6,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 const Home = () => {
 
   return (
-    <div name='home' className='w-full h-full pt-16 pb-24 bg-white flex justify-center items-center'>
+    <div name='' className='w-full h-full pt-16 pb-24 bg-white flex justify-center items-center'>
 
       {/* Container */}
       <div className='w-full mx-auto px-8 flex flex-col justify-center items-center'>
