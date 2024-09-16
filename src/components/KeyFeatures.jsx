@@ -16,7 +16,7 @@ const KeyFeatures = () => {
         <div className='col-span-4 flex flex-col justify-start mt-6'>
           {/* Heading and Intro Paragraph */}  
           <div className='text-center'>
-            <h2 className='text-4xl font-bold mb-4' style={{ fontFamily: 'MilkyWay', fontSize: '3.5rem' }}>
+            <h2 className='text-4xl font-bold pt-8 mb-4' style={{ fontFamily: 'MilkyWay', fontSize: '3.5rem' }}>
               Discover the Essence
             </h2>
             <p className='text-lg max-w-[800px] mx-auto mb-8'>
