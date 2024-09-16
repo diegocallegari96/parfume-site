@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Landing from "./components/Landing";
 import KeyFeatures from "./components/KeyFeatures";
 import TheTeam from './components/TheTeam';
+import StoryVid from './components/Story';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <KeyFeatures />
           <About />
           <TheTeam />
+          <StoryVid />
           {/* <FragranceNotes />
           <Contact /> */}
         </>
