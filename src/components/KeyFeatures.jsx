@@ -1,11 +1,11 @@
 import React from 'react'
-import PerfumeImage from '../assets/keyp1.jpg'
 import IconElegance from '../assets/ico6.png'
 import IconLongLasting from '../assets/ico1.png'
 import IconCraftedWithCare from '../assets/ico2.png'
 import IconSignatureFragrance from '../assets/ico3.png'
 import IconExclusivity from '../assets/ico4.png'
 import IconLuxuriousPackaging from '../assets/ico5.png'
+import PerfumeImage from '../assets/keyp1.jpg'
 
 const KeyFeatures = () => {
   return (
@@ -83,9 +83,10 @@ const KeyFeatures = () => {
           </div>
         </div>
 
-        {/* Right side: Image (20%) */}
-        <div className='col-span-1 w-full h-full'>
-          <img src={PerfumeImage} alt='Seraphine Scent Perfume' className='w-full h-full object-cover pr-1' />
+        {/* Right side: Background Image */}
+        <div 
+          className='col-span-1 w-full h-full bg-cover bg-right md:bg-center' 
+          style={{ backgroundImage: `url(${PerfumeImage})` }}>
         </div>
       </div>
     </div>
