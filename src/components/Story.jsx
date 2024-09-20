@@ -41,9 +41,13 @@ const StoryVid = () => {
       {/* Video Background */}
       <video
         ref={videoRef}
-        className="absolute top-0 left-0 w-full h-full object-cover sm:object-left" // Shift to left on mobile
+        className="absolute top-0 left-0 w-full h-full object-cover sm:object-left"
         src={videoBg}
         muted
+        playsInline 
+        loop        
+        autoPlay    
+        preload="auto" 
       />
 
       {/* Overlay Content */}
